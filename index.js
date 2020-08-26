@@ -2,9 +2,7 @@ function rainbowframes(options) {
     let images = document.querySelectorAll('.rainbowframes');
 
     //global variables
-	let newArr = [];
-	let size = ""; 
-    let sun = "";
+	let newArr = []; let size = ""; let sun = ""; let padding = "";
     
 	//holiday arrays
 	oceanArr = ['linear-gradient(290deg, rgb(56, 56, 138), rgb(56, 56, 138), rgb(119, 187, 216), rgb(119, 187, 216)) 100', 'linear-gradient(290deg,  rgb(62, 128, 147), rgb(62, 128, 147), rgb(56, 56, 138), rgb(56, 56, 138)) 100','linear-gradient(290deg, rgb(119, 187, 216), rgb(119, 187, 216), rgb(62, 128, 147), rgb(62, 128, 147)) 100' ];
@@ -64,7 +62,7 @@ function rainbowframes(options) {
 	
 	//determine if want padding
 	if(options.padding) { 
-		images[i].style.padding = '2em';
+		padding = '0.5em';
 	}	
 	
 	// pass parameters through array
@@ -79,7 +77,8 @@ function rainbowframes(options) {
 		if(i%3 === 2) {
 			images[i].style.borderImage = newArr[2];
 		}
-		images[i].style.boxShadow = sun;
+        images[i].style.boxShadow = sun;
+        images[i].style.padding = padding;
 	}
 }
 

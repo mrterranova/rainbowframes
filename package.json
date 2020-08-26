@@ -1,6 +1,6 @@
 {
   "name": "rainbowframes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Border colors for you images, divs, etc. ",
   "main": "index.js",
   "scripts": {

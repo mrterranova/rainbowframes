@@ -1,18 +1,18 @@
-#  What is Rainbow Outline?
+#  What is Rainbow Frames?
 
 If you are looking for a great outline theme to border your images, cards, divs, etc., then you've come to the right place. We have a list of themes that might be exactly what you are looking for to border your images!
 
 # How to Install
 
-`npm i rainbowoutline --save`
+`npm i rainbowframes --save`
 or 
-`yarn i rainbowoutline --save`
+`yarn i rainbowframes --save`
 
 Then...
 ...
-import { rainbowoutline } from 'rainbowoutline'; 
+import { rainbowframes } from 'rainbowframes'; 
 
-rainbowoutline({
+rainbowframes({
     theme_border: `ocean`, 
     size: `medium`, 
     sundial:  `none`,
@@ -22,7 +22,7 @@ rainbowoutline({
 
 # What's Available? 
 
-Rainbowoutline currently supports a variety of themes, frame sizes, shadow options, and padding.
+Rainbowframes currently supports a variety of themes, frame sizes, shadow options, and padding.
 
 ## Themes available
 
@@ -67,7 +67,7 @@ Rainbowoutline currently supports a variety of themes, frame sizes, shadow optio
     - sundial:  `none` is the default
 
     ### Other Options Available...
-    - sunrise
+    - sunrise 
     - morning
     - noon
     - afternoon

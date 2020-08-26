@@ -1,5 +1,5 @@
 function rainbowframes(options) {
-	let images = document.querySelectorAll('.rainbowoutline');
+	let images = document.querySelectorAll('.rainbowframes');
 	
 	//holiday arrays
 	oceanArr = ['border-image: linear-gradient(290deg, rgb(56, 56, 138), rgb(56, 56, 138), rgb(119, 187, 216), rgb(119, 187, 216)) 100', 'border-image: linear-gradient(290deg,  rgb(62, 128, 147), rgb(62, 128, 147), rgb(56, 56, 138), rgb(56, 56, 138)) 100','border-image: linear-gradient(290deg, rgb(119, 187, 216), rgb(119, 187, 216), rgb(62, 128, 147), rgb(62, 128, 147)) 100' ];
@@ -74,7 +74,7 @@ function rainbowframes(options) {
 			img.style.borderImage = options.theme_border[2];
 		}
 		
-		img.style.border = `${weight} solid;`;
+		img.style.border = `${options.size} solid;`;
 		img.style.boxShadow = options.sundial;
     });
 }

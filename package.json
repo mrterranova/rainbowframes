@@ -1,0 +1,23 @@
+{
+  "name": "rainbowframes",
+  "version": "1.0.0",
+  "description": "Border colors for you images, divs, etc. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mrterranova/rainbowframes.git"
+  },
+  "keywords": [
+    "border",
+    "shadows"
+  ],
+  "author": "Mrterranova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrterranova/rainbowframes/issues"
+  },
+  "homepage": "https://github.com/mrterranova/rainbowframes#readme"
+}

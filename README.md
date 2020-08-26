@@ -8,47 +8,31 @@ If you are looking for a great outline theme to border your images, cards, divs,
 or 
 `yarn i rainbowframes --save`
 
-Then...
-...
-import { rainbowframes } from 'rainbowframes'; 
+>import { rainbowframes } from 'rainbowframes';
 
-rainbowframes({
-    theme_border: `ocean`, 
-    size: `medium`, 
-    sundial:  `none`,
-    padding: false
-}); 
-...
+>rainbowframes({
+>    theme_border: 'ocean', 
+>    size: 'medium', 
+>    sundial:  'none',
+>    padding: false
+>}); 
+
 
 # What's Available? 
 
 Rainbowframes currently supports a variety of themes, frame sizes, shadow options, and padding.
-
-## Themes available
-
-   - theme_border : `ocean`
-
     ![Ocean](/images/Ocean.png)
-
-   - theme_border : `christmas`
-
+    theme_border: `ocean`
     ![Christmas](/images/Christmas.png)
-
-   - theme_border : `eastereggs`
-
+    theme_border: `christmas`
     ![Easter](/images/EasterEggs.png)
-
-   - theme_border: `halloween`
-
+    theme_border: `eastereggs`
     ![Halloween](/images/Halloween.png)
-
-   - theme_border: `valentine`
-
+    theme_border: `halloween`
     ![Valentines](/images/Valentines.png)
-
-   - theme_border: `newyear`
-
+    theme_border: `valentine`
     ![New Years](/images/NewYear.png)
+    theme_border: `newyear`
 
 ## Size of the frame are based on t-shirt sizes
 

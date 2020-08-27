@@ -1,0 +1,12 @@
+.testing-1 {
+    border: 20px solid;
+    border-image: linear-gradient(290deg, rgb(254, 255, 166), rgb(254, 255, 166), rgb(172, 255, 184), rgb(172, 255, 184)) 100;
+}
+.testing-2 {
+    border: 20px solid;
+    border-image: linear-gradient(290deg, rgb(254, 255, 166), rgb(254, 255, 166), rgb(172, 255, 184), rgb(172, 255, 184)) 100;
+}
+.testing-3 {
+    border: 20px solid;
+    border-image: linear-gradient(290deg, rgb(254, 255, 166), rgb(254, 255, 166), rgb(172, 255, 184), rgb(172, 255, 184)) 100;
+}

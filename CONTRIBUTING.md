@@ -13,35 +13,26 @@
 ### Adding a feature
 - Feel free to come up with your own border colors and unique name. 
 - To do this you can either modify one of the arrays with the colors you want or you can make a completely new array with more or less colors, acutal images, etc.. 
-- However, make sure that you have three items in the array for it to currently work currently. So if you want only one frame, then copy it two extra times in the same array.
+- However, make sure that you have three items in the array for it to currently work. So if you want only one frame, then copy it two extra times in the same array to get three.
 
-Example 
+_Example_
    ![New Years](/images/example1frame.PNG)
 
+- Comment in the 5 images under `<!-- test with css -->` to use the CSS and create your own unique frames.
+- The CSS file will include a class tag with labels testing-1, testing-2, testing-3. You can either erase/update this to test with, or you can make your own 3 class below. It's up to you which ever you prefer. 
+- when you get something you like then add another array in _rainbowframes>index.js_.Remember to include both the array with your style and the if statement so that it can parse out the style to all images with the tag rainbowframes. 
+- Come up with a fun name for your frames as well!
 
-### Adding your name to the contributors panel
-- navigate to home-page > contributors-panel.js
-- locate the contributors object and at the bottom of the object you may add your GitHub name and display name
-### Adding a resource to Useful-links.html
-- navigate to useful-links/useful-links.html
-- you may add a list item under the appropriate category
-### Adding a camper cell to challenge 1
-- navigate to challenges/challenge1.html
-- you will find the instructions for the challenge both in challenge1.html and on the easy-to-git website
-- read the instructions carefully and modify the HTML as instructed
-### Adding a space object to challenge 2
-- navigate to challenges/challenge2.html
-- you will find the instructions for the challenge both in challenges/instructs2.txt and on the easy-to-git website
-- read the instructions carefully and modify the HTML as instructed
-### Adding a theme to index.html
-- navigate to home-page/themes.js
-- you may add an object containing your own custom theme
-- you will also need to add a link to the 'theme picker' dropdown in index.html as well as an onclick listener for that link
-### Fixing a bug
-- go to issues > new issues > bug report and use the template provided to report the bug
-- after review from an admin, you may work on the bug
-### Adding a new feature
-- go to issues > new issues > bug report and use the template provided
-- after review from an admin, you may work on the feature
+### Testing your work before submitting
+- make sure to include whether you have tested or not tested your work on your pr.
+- install as per normal with `npm install` 
+- for checking your work on index.js in the main file _rainbowframes_ then install parcel using the command `npm i parcel -g`. This should give you a dist folder with the necessary set up
+- from there you need to `parcel index.html` to see it running on localhost:1234.
+
+### Pull Requests Must Include
+- What you have added specifically ie. name to contributor list, feature/new frame, etc
+- Whether you tested it: ie. feature has been tested, feature needs to be tested, bug fixed in file ___ , N/A (documentation), etc
+
 ### Code of conduct for any pull request
-Please review the <a href='./CODE_OF_CONDUCT.md'>code of conduct</a> before making any contribution
+Before you do a pull request, take a look at the <a href='./CODE_OF_CONDUCT.md'>code of conduct</a> before making any contribution.
+

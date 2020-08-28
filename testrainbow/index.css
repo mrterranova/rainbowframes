@@ -1,12 +1,12 @@
 .testing-1 {
     border: 20px solid;
-    border-image: linear-gradient(290deg, rgb(254, 255, 166), rgb(254, 255, 166), rgb(172, 255, 184), rgb(172, 255, 184)) 100;
+    border-image: linear-gradient(290deg, rgb(228, 72, 124), rgb(228, 72, 124), rgb(216, 124, 108), rgb(216, 124, 108)) 100;
 }
 .testing-2 {
     border: 20px solid;
-    border-image: linear-gradient(290deg, rgb(254, 255, 166), rgb(254, 255, 166), rgb(172, 255, 184), rgb(172, 255, 184)) 100;
+    border-image: linear-gradient(290deg, rgb(235, 189, 208), rgb(235, 189, 208), rgb(228, 72, 124), rgb(228, 72, 124)) 100;
 }
 .testing-3 {
     border: 20px solid;
-    border-image: linear-gradient(290deg, rgb(254, 255, 166), rgb(254, 255, 166), rgb(172, 255, 184), rgb(172, 255, 184)) 100;
+    border-image: linear-gradient(290deg, rgb(254, 255, 166), rgb(254, 255, 166), rgb(216, 124, 108), rgb(216, 124, 108)) 100;
 }

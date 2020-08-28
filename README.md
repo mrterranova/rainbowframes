@@ -33,6 +33,10 @@ Rainbowframes currently supports a variety of themes, frame sizes, shadow option
     ![Valentines](/images/Valentines.PNG)
     theme_border: `newyear`
     ![New Years](/images/NewYear.PNG)
+    
+   ### More Options
+   * theme_border: `sunset`
+   * theme_border: `evergreen`
 
 ## Size of the frame are based on t-shirt sizes
 
